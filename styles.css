@@ -1,0 +1,181 @@
+body {
+
+    background-color: rgb(83, 129, 167);
+}
+.überuns{
+    background-color: aliceblue;
+    width:100%;
+    
+    float: left;
+    margin: 5px 0;
+    height: 170px;
+    text-align: left;
+}  
+
+nav {
+    background-color: rgb(2, 110, 118);
+   padding: 10px;
+    text-align: center;
+
+    
+}
+.navbuttons {
+    
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium;
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.Titelwelcome {
+    text-align: center;
+    font-family: 'Broadway';
+    font-size: 300%;
+}
+
+.textallgemein{
+    font-size:110%;
+    margin: 10px;
+}
+
+.untertitel{
+    margin: 10px;
+}
+
+footer{
+    background-color:rgb(2, 110, 118) ;
+    height: 30px;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.bandmembers {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.member {
+    background-color: white;
+    padding: 10px;
+    width: 22%;
+    text-align: center;
+    border: 2px solid #2f4e90;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+}
+
+.band-info {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #2f4e90;
+}
+
+.band-info img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.music-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ALBUM-LISTE (linke Spalte) */
+.albums {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* EINZELNES ALBUM – horizontal: links Info, rechts Bild */
+.album {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #2f4e90;
+    gap: 20px;
+}
+
+/* INFOTEIL LINKS */
+.album-info {
+    flex: 1;
+}
+
+/* BILD RECHTS */
+.album img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* SONG-LISTE UNTER DEM TITEL */
+.songlist {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* SIDE NOTES (rechte Spalte) */
+.sidenotes {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #2f4e90;
+}
+
+
+
+footer {
+    background-color: #1f3b77;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.shop-layout {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex: 3;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #2f4e90;
+    text-align: center;
+    height: 150px;
+}
+
+.albumtitles{
+    font-family: Forte;
+}
